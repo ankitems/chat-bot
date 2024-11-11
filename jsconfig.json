@@ -49,7 +49,8 @@
     "next.config.mjs",
     "tailwind.config.js",
     "**/*.js",
-    "**/*.jsx"
+    "**/*.jsx",
+    "src/hooks/useSocket.jsx"
   ],
   "exclude": [
     "node_modules"

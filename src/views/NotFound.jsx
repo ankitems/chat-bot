@@ -25,7 +25,7 @@ const NotFound = ({ mode }) => {
           <Typography className='font-medium text-8xl' color='text.primary'>
             404
           </Typography>
-          <Typography variant='h4'>Page Not Found ⚠️</Typography>
+          <Typography variant='h4'>Page Not Found 2⚠️</Typography>
           <Typography>We couldn&#39;t find the page you are looking for.</Typography>
         </div>
         <img
