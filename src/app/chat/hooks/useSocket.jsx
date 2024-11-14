@@ -7,7 +7,7 @@ const useSocket = () => {
   const [message, setMessage] = useState('')
 
   useEffect(() => {
-    const socketInstance = io('http://localhost:7000') // Connect to your backend's socket server
+    const socketInstance = io('http://localhost:7000')
     setSocket(socketInstance)
 
     socketInstance.on('connect', () => {
